@@ -62,6 +62,13 @@
     "bin": [
         "bin/browscap-php"
     ],
+    "extra": {
+      "laravel": {
+        "providers": [
+          "BrowscapPHP\\BrowscapServiceProvider"
+        ]
+      }
+    },
     "support": {
         "issues": "https://github.com/browscap/browscap-php/issues",
         "source": "https://github.com/browscap/browscap-php"
